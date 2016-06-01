@@ -1,8 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
+/* @flow */
 
 import React, { Component } from 'react';
 import {
@@ -11,6 +7,15 @@ import {
   Text,
   View
 } from 'react-native';
+
+// import bar from 'idk'
+//
+// bar.foo('what')
+
+// import bar from 'src/bar/idk'
+import bar from 'src/bar/idk'
+bar.foo(5)
+
 
 class AwesomeProject extends Component {
   render() {

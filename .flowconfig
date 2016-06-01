@@ -82,6 +82,9 @@ munge_underscores=true
 module.name_mapper='^image![a-zA-Z0-9$_-]+$' -> 'GlobalImageStub'
 module.name_mapper='^[./a-zA-Z0-9$_-]+\.\(bmp\|gif\|jpg\|jpeg\|png\|psd\|svg\|webp\|m4v\|mov\|mp4\|mpeg\|mpg\|webm\|aac\|aiff\|caf\|m4a\|mp3\|wav\|html\|pdf\)$' -> 'RelativeImageStub'
 
+; module.system.node.resolve_dirname=node_modules
+; module.system.node.resolve_dirname=src
+
 suppress_type=$FlowIssue
 suppress_type=$FlowFixMe
 suppress_type=$FixMe
@@ -91,4 +94,4 @@ suppress_comment=\\(.\\|\n\\)*\\$FlowIssue\\((\\(>=0\\.\\(2[0-4]\\|1[0-9]\\|[0-9
 suppress_comment=\\(.\\|\n\\)*\\$FlowFixedInNextDeploy
 
 [version]
-0.24.0
+0.25.0
